@@ -12,11 +12,11 @@
 */
 
 
-#include <iostream>
-using namespace std;
-
-int main()
-{
-	cout << "引用和指针的区别" << endl;
-	return 0;
-}
+//#include <iostream>
+//using namespace std;
+//
+//int main()
+//{
+//	cout << "引用和指针的区别" << endl;
+//	return 0;
+//}

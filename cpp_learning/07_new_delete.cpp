@@ -11,7 +11,8 @@
 
 	3. C++和C语言申请内存空间的区别和联系
 		(1) C++中可以使用malloc和free
-		(2) new和delete可以触发构造和析构，而malloc和free不行
+		(2) new和delete可以触发构造和析构，而malloc和free不行。
+			new可以触发构造函数，delete可以触发析构函数
 		(3) delete NULL是允许的，不会崩溃；而free一个空指针会导致崩溃
 
 */

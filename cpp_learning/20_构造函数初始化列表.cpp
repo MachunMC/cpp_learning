@@ -8,57 +8,54 @@
 */
 
 
-#include <iostream>
-using namespace std;
-
-struct student
-{
-	char name[32];
-	char gender;
-	int  age;
-	int  score;
-};
-
-class Cteacher
-{
-public:
-	char name[32];  // 先初始化
-	char gender;	// 在初始化
-	int  age;		// 接着初始化
-	int  salary;	// 最后初始化
-
-	// 初始化列表
-	Cteacher():gender('M'), age(32), salary('c')
-	{
-		age = 30;
-		salary = 20000;
-	}
-
-	void show()
-	{
-		cout << "gender:" << gender << endl;
-		cout << "age:"    << age    << endl;
-		cout << "salary:" << salary << endl;
-	}
-};
-
-int main()
-{
-	student tMichael = { "Michael", 'M', 26, 100}; // 结构体初始化
-
-	cout << "结构体初始化测试" << endl;
-	cout << "name:"   << tMichael.name   << endl;
-	cout << "gender:" << tMichael.gender << endl;
-	cout << "age:"    << tMichael.age    << endl;
-	cout << "score:"  << tMichael.score  << endl;
-
-
-	Cteacher cJack;
-
-	cout << "teacher Jack infomation" << endl;
-	cJack.show();
-
-	
-
-	return 0;
-}
+//#include <iostream>
+//using namespace std;
+//
+//struct student
+//{
+//	char name[32];
+//	char gender;
+//	int  age;
+//	int  score;
+//};
+//
+//class Cteacher
+//{
+//public:
+//	char name[32];  // 先初始化
+//	char gender;	// 在初始化
+//	int  age;		// 接着初始化
+//	int  salary;	// 最后初始化
+//
+//	// 初始化列表
+//	Cteacher():gender('M'), age(32), salary('c')
+//	{
+//		age = 30;
+//		salary = 20000;
+//	}
+//
+//	void show()
+//	{
+//		cout << "gender:" << gender << endl;
+//		cout << "age:"    << age    << endl;
+//		cout << "salary:" << salary << endl;
+//	}
+//};
+//
+//int main()
+//{
+//	student tMichael = { "Michael", 'M', 26, 100}; // 结构体初始化
+//
+//	cout << "结构体初始化测试" << endl;
+//	cout << "name:"   << tMichael.name   << endl;
+//	cout << "gender:" << tMichael.gender << endl;
+//	cout << "age:"    << tMichael.age    << endl;
+//	cout << "score:"  << tMichael.score  << endl;
+//
+//	Cteacher cJack;
+//
+//	cout << "teacher Jack infomation" << endl;
+//	cJack.show();
+//
+//	return 0;
+//}

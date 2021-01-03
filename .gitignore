@@ -33,7 +33,9 @@
 
 # vs files
 *.vs
-*.sln
-*.vcxproj*
+*.vcxproj.user
+*.vcxproj.filters
 *Debug
 *Release
+bin
+obj

@@ -12,6 +12,8 @@
 		public：父类如何，子类如何
 		protected：父类的public成员，子类中为protected
 		private：父类中的public、private成员，子类中为private
+
+	5. 友元函数不能被继承
 */
 
 

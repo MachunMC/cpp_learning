@@ -140,6 +140,8 @@
   <ItemGroup>
     <ClCompile Include="00_数据类型.cpp" />
     <ClCompile Include="01_强制类型转换.cpp" />
+    <ClCompile Include="02_变量定义和初始化.cpp" />
+    <ClCompile Include="03_引用.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
